@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV210-CHARPU",
+    "esc": "Lumenier Mini 20A ESC w/ SimonK AutoShot",
+    "motor": "Lumenier/RX2204-14-2300Kv-Motor",
+    "fc": "AbuseMark/Acro-Naze32-rev5",
+    "prop": [
+      "HQProp/5x4.5-CF-BN",
+      "HQProp/5x4-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Lumenier/1300mAh-4s-60c-Lipo"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Lumenier CM-650 Mini - 650TVL Camera 26x26mm",
+    "hqcam": "GoPro/HERO4-Black",
+    "videotx": "Lumenier/TX5G6-Mini-600mW-5.8GHz-32CH-FPV-Transmitter-with-Raceband",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
